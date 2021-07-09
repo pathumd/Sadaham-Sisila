@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sadaham Sisila (සදහම් සිසිල) | All your sermons in one place.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/style.css ">
+
+    </head>
+    <body>
+
+        <!--Navigation-->
+        <section class="landing-area">
+            <div class="nav_container" id="home">
+                <nav>
+                      <input type="checkbox" id="nav" class="hidden">
+                      <label for="nav" class="nav-btn">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                      </label>
+                      <div class="nav-wrapper">
+                            <ul>
+                                  <li><a href="https://sadahamsisila.com">Home</a></li>
+                                  <li><a href="#about">About</a></li>
+                                  <li><a href="#sermons">Sermons</a></li>
+                                  <li><a href="#contact">Contact</a></li>
+                            </ul>
+                      </div>
+                </nav>
+            </div>
+
+            <!--Main landing area-->
+            <div class="splash_area">
+
+                <div class="header">
+                    <h1 class="line1">All your sermons</h1><br><h1 class="line2">in one place.</h1>
+                    <div class="btn_container">
+                        <a href="#sermons""><button id="#join">Listen Now</button></a>
+                    </div>
+                </div>
+
+                <div class="lord_buddha">
+                    <img src="assets/budhu_sadhu.svg" draggable="false">
+                </div>
+            </div>
+        </section>
+
+        <!--Features section-->
+        <section class="features_section">
+            <div class="features">
+                <h1 class="features_title" id="about">Why Sadaham Sisila?</h1>
+                <div class="cen">
+
+                    <div class="feature">
+                        <img src="assets/download.svg" style=transform:scale(0.8) draggable="false">
+                        <h1 class="feature_title">Download sermons.</h1>
+                        <h2>Listen anywhere.</h2>
+                    </div>
+
+                    <div class="feature">
+                        <img src="assets/trending.svg" style=transform:scale(0.8) draggable="false">
+                        <h1 class="feature_title">Popular preachings.</h1>
+                        <h2>By Sri Lanka's most trending monks.</h2>
+                    </div>
+
+                    <div class="feature">
+                        <img src="assets/library.svg" style=transform:scale(0.8) draggable="false">
+                        <h1 class="feature_title">Growing library.</h1>
+                        <h2>Sermons added every week.</h2>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Dharma sermons section-->
+        <section class="sermons_section">
+            <div class="sermons">
+                <h1 class="sermons_title" id="sermons">Sermons</h1>
+                <div class="cen">
+
+                    <div class="sermon">
+                        <a href="gnanadeepathero/gnanadeepathero.html"><img src="assets/galigamuwe_thero.png" style=transform:scale(0.9) draggable="false"></a>
+                        <a class="sermon_title" href="gnanadeepathero/gnanadeepathero.html">Ven. Galigamuwe Gnanadeepa Thero</a>
+                    </div>
+
+                    <div class="sermon">
+                        <a href="bhaddiyathero/bhaddiyathero.html"><img src="assets/mawarale_thero.png" style=transform:scale(0.9) draggable="false"></a>
+                        <a class="sermon_title" href="bhaddiyathero/bhaddiyathero.html">Ven. Mawarale Bhaddiya Thero</a>
+                    </div>
+
+                    <div class="sermon">
+                        <a href="ariyagnanathero/ariyagnanathero.html"><img src="assets/rajagiriye_thero.png" style=transform:scale(0.9) draggable="false"></a>
+                        <a class="sermon_title" href="ariyagnanathero/ariyagnanathero.html">Ven. Rajagiriye Ariyagnana Thero</a>
+                    </div>
+
+                    <div class="sermon">
+                        <a href="radhathero/radhathero.html"><img src="assets/balangoda_thero.png" style=transform:scale(0.9) draggable="false"></a>
+                        <a class="sermon_title" href="radhathero/radhathero.html">Ven. Balangoda Radha Thero</a>
+                    </div>
+
+                    <div class="sermon">
+                        <a href="kashyapathero/kashyapathero.html"><img src="assets/ududumbara_thero.png" style=transform:scale(0.9) draggable="false"></a>
+                        <a class="sermon_title" href="kashyapathero/kashyapathero.html">Ven. Ududumbara Kashyapa Thero</a>
+                    </div>
+
+                    <div class="sermon">
+                        <a href="kovidathero/kovidathero.html"><img src="assets/boralle_thero.png" style=transform:scale(0.9) draggable="false"></a>
+                        <a class="sermon_title" href="kovidathero/kovidathero.html">Ven. Boralle Kovida Thero</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact">
+            <div class="contact_header" id="contact">
+                <img src="assets/logo.svg" id="contact" style=transform:scale(0.8) draggable="false">
+                <h1 class="contact_title">Want to see dharma<br>sermons from more monks?<br>Send us a request.</h1>
+            </div>
+
+            <div class="contact-form">
+                <form id="contact-form" action="contactform.php" method="post">
+                    <label>
+                    <input name="name" type="text" class="form-control" placeholder="Name" required>
+                    <br>
+                    </label>
+                    <label>
+                    <input name="email" type="text" class="form-control" placeholder="Email" required>
+                    <br>
+                    </label>
+
+                        <textarea name="message" class="form-control" placeholder="Message" rows="10" required></textarea><br>
+                        <input type="submit" name="submit" class="form-control-submit" value="Send">
+                </form>
+            </div>
+        </section>
+
+        <!--Footer section-->
+        <section class="footer">
+            <div class="footer-content">
+                <a href="https://sadahamsisila.com"><img src="assets/logo.svg" draggable="false"></a>
+                <h1>Sadaham Sisila</h1>
+                <p>&copy; 2021 Copyright Pathum Danthanarayana.</p>
+            </div>
+        </section>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="./scripts/script.js" async defer></script>
+    </body>
+</html>

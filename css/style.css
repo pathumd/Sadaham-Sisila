@@ -1,0 +1,724 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Import fonts */
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(../fonts/Product\ Sans\ Bold.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(../fonts/Product\ Sans\ Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+/* Main Styling */
+
+
+body {
+    background-color: #FDFDFD;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Product Sans';
+    font-weight: 200;
+    color: #3C4043;
+}
+
+h2 {
+    font-family: 'Product Sans';
+    font-weight: 100;
+    color: #787575;
+}
+
+a,p {
+    font-family: 'Product Sans';
+    font-weight: 100;
+    color: #787575;
+}
+
+button {
+    font-family: 'Product Sans';
+    font-weight: 200;
+    color: #FDFDFD;
+}
+
+
+/* Navigation */
+
+
+nav {
+    
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: block;
+    overflow: hidden;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    padding-bottom: 5px;
+}
+
+nav ul li:not(:first-child) {
+    margin-left: 48px;
+}
+
+nav ul li:last-child {
+    margin-right: 24px;
+}
+
+nav ul li a {
+    display: inline-block;
+    outline: none;
+    color: #787575;
+    font-family: Product Sans;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+
+    color: #3C4043;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 864px) {
+
+
+    .nav-wrapper {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          background: #F8864B;
+          opacity: 0;
+          transition: all 0.2s ease;
+    }
+
+    .nav-wrapper ul {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+    }
+
+    .nav-wrapper ul li {
+          display: block;
+          float: none;
+          width: 100%;
+          text-align: right;
+          margin-bottom: 10px;
+    }
+
+    .nav-wrapper ul li:nth-child(1) a {
+          transition-delay: 0.2s;
+    }
+
+    .nav-wrapper ul li:nth-child(2) a {
+          transition-delay: 0.3s;
+    }
+
+    .nav-wrapper ul li:nth-child(3) a {
+          transition-delay: 0.4s;
+    }
+
+    .nav-wrapper ul li:nth-child(4) a {
+          transition-delay: 0.5s;
+    }
+
+    .nav-wrapper ul li:not(:first-child) {
+          margin-left: 0;
+    }
+
+    .nav-wrapper ul li a {
+          padding: 20px 24px;
+          opacity: 0;
+          color: #FDFDFD;
+          font-size: 25px;
+          font-family: Product Sans;
+          font-weight: 200;
+          transform: translateX(-20px);
+          transition: all 0.2s ease;
+    }
+
+    .nav-btn {
+          position: fixed;
+          right: 10px;
+          top: 10px;
+          display: block;
+          width: 48px;
+          height: 48px;
+          cursor: pointer;
+          z-index: 9999;
+          border-radius: 50%;
+    }
+
+    .nav-btn i {
+          display: block;
+          width: 20px;
+          height: 2px;
+          background: #3C4043;
+          border-radius: 2px;
+          margin-left: 14px;
+    }
+
+    .nav-btn i:nth-child(1) {
+          margin-top: 16px;
+    }
+
+    .nav-btn i:nth-child(2) {
+          margin-top: 4px;
+          opacity: 1;
+    }
+
+    .nav-btn i:nth-child(3) {
+          margin-top: 4px;
+    }
+}
+
+#nav:checked + .nav-btn {
+    transform: rotate(45deg);
+}
+
+#nav:checked + .nav-btn i {
+    background: #3C4043;
+    transition: transform 0.1s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+    transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+    opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) {
+    transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+    z-index: 9990;
+    opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Main slogan */
+
+.splash_area h1 {
+    position: relative;
+    overflow: hidden;
+    font-size: 70px;
+}
+
+.line1 .letter {
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1em;
+}
+.line2 {
+    padding: 0;
+    margin: 0;
+    top: -15px;
+    color: #787575;
+}
+
+.line2 .letter {
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.splash_area a {
+    font-family: Product Sans;
+    font-size: 25px;
+}
+
+.header {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    margin-top: 14%;
+    margin-left: 15%;
+}
+
+
+/* Listen Now button */
+
+button {
+    padding: 22px 50px;
+    background-color: #F8864B;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #f89462;
+}
+
+.btn_container {
+    padding-top: 60px;
+}
+
+
+/* Lord Buddha image */
+
+.lord_buddha {
+    z-index: -2;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 52%;
+    padding-right: 40px;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+/* Lord Buddha image hovering animation keyframes */
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+/* Features section */
+
+.features {
+    background: #F8F9FA;
+    margin-top: 380px;
+    text-align: center;
+}
+
+.features_title {
+    display: inline-block;
+    font-size: 45px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.feature_title {
+    padding-top: 30px;
+}
+
+.features h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.cen {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.feature {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+.feature img:hover {
+    cursor: pointer;
+}
+
+/* Media queries for features items (resizing for different viewports */
+@media screen and (max-width: 900px) {
+
+    .feature {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .feature {
+        width: 100%;
+    }
+}
+
+
+/* Sermons section */
+
+.sermons {
+    text-align: center;
+}
+
+.sermons_title {
+    display: inline-block;
+    font-size: 45px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.sermons a {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+    white-space: nowrap;
+}
+
+.sermon_title {
+    padding-top: 30px;
+}
+
+.sermon_title::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #F8864B;
+    transition: width .3s;
+}
+
+.sermon_title:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.sermon {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+.sermon img {
+    padding-bottom: 40px;
+}
+.sermon img:hover {
+    cursor: pointer;
+}
+
+/* Media queries for features items (resizing for different viewports */
+@media screen and (max-width: 900px) {
+
+    .sermon {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .sermon {
+        width: 100%;
+    }
+}
+
+
+/* Contact section */
+
+.contact_header {
+    background: #F8F9FA;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.contact_title {
+
+    font-size:45px;
+    line-height: 3.5rem;
+}
+
+.contact_header img {
+    padding-bottom: 80px;
+}
+
+/* Contact section */
+
+.contact-form {
+    position: relative;
+    background-color: #F8F9FA;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#contact-form {
+
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+
+.form-control {
+    width: 500px;
+    background: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 15px #d3d3d3;
+    color: #787575;
+    font-family: Product Sans;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+input {
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+
+textarea {
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.form-control-submit {
+    background-color: #F8864B;
+    border-radius: 50px;
+    border: none;
+    width: 500px;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Product Sans;
+    font-weight: 200;
+    font-size: 18px;
+    color: #FDFDFD;
+    -webkit-appearance: none;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.form-control-submit:hover {
+    cursor: pointer;
+    background: #f89462;
+}
+
+
+/* Footer section */
+
+.footer-content {
+    text-align: center;
+}
+.footer-content img {
+    transform: scale(0.5);
+    padding-top: 100px;
+}
+
+.footer-content img:hover {
+    cursor: pointer;
+}
+
+.footer-content h1 {
+    position: relative;
+    top: -30px;
+}
+
+.footer-content p {
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+/*Media Queries for different viewports*/
+
+
+/*Mobile*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .form-control {
+        width: 340px;
+    }
+
+    .form-control-submit {
+        width: 340px;
+        padding-left: 15px;
+    }
+
+    .contact_title {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    .contact_header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header h1 {
+        font-size: 38px;
+    }
+
+    .header {
+        padding-top: 400px;
+    }
+
+    .lord_buddha {
+        z-index: -2;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        top: 0;
+        padding-top: 100px;
+        padding-left: 10%;
+        padding-right: 40px;
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    
+    }
+
+    .features {
+        margin-top: 160px;
+    }
+
+  
+    
+
+  }
+
+
+/*Mobile/Tablet*/
+
+@media only screen and (min-width: 360px) and (max-width: 765px) {
+
+    .form-control {
+        width: 340px;
+    }
+
+    .form-control-submit {
+        width: 340px;
+        padding-left: 15px;
+    }
+
+    .contact_title {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    .contact_header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header h1 {
+        font-size: 38px;
+    }
+
+    .header {
+        padding-top: 400px;
+    }
+
+    .lord_buddha {
+        z-index: -2;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        top: 0;
+        padding-top: 100px;
+        padding-left: 10%;
+        padding-right: 40px;
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    
+    }
+
+    .features {
+        margin-top: 160px;
+    }
+
+  }
+
+
+/*Tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header h1 {
+        font-size: 45px;
+    }
+
+  }
+
+  
+/*Laptop*/
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+
+    .features {
+        margin-top: 320px;
+    }
+
+    .sermons_title {
+        padding-top: 135px;
+    }
+
+    .contact_header {
+        padding-top: 135px;
+    }
+
+  }
+
+
+/*Desktop*/
+
+@media only screen and (min-width: 1370px) and (max-width: 1630px) {
+
+
+}
