@@ -1,7 +1,7 @@
 # Sadaham Sisila (සදහම් සිසිල)
 Project Version 1.1 07/09/2021
 
-![alt text](https://github.com/[pathumd]/[Sadaham-Sisila]/blob/[main]/mainmockup.jpg?raw=true)
+![alt text](https://github.com/pathumd/Sadaham-Sisila/blob/main/mainmockup.jpg?raw=true)
 Description:
 --------------
 - Sadaham Sisila is a website where people who are interested in listening to Sinhalese dharma sermons/discussions from Sri Lanka's most popular Buddhist monks, can do so in one convenient place.
