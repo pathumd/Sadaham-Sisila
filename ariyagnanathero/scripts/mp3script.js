@@ -10,81 +10,121 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Vesak Poya Bana / වෙසක් පෝයා ධර්ම දේශනය",
+          name: "1. Vesak Poya Bana / වෙසක් පෝයා ධර්ම දේශනය",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/1.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1G_k4Yo1lVtKltgPFyGDdN2yy6zcnMyxu",
           url: "https://drive.google.com/uc?export=download&id=1G_k4Yo1lVtKltgPFyGDdN2yy6zcnMyxu",
           favorited: false
         },
         {
-          name: "Poson Poya Bana / පොසන් පොයා ධර්ම දේශනය",
+          name: "2. Poson Poya Bana / පොසන් පොයා ධර්ම දේශනය",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/2.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1jEPul91A15CyOhpIFZ1yuvgoSVJ7Wu5S",
           url: "https://drive.google.com/uc?export=download&id=1jEPul91A15CyOhpIFZ1yuvgoSVJ7Wu5S",
           favorited: true
         },
         {
-          name: "The phone that influences powerful psychics / බලවත්වූ මනෝ කර්මයන්ට බලපාන දුරකතනය",
+          name: "3. The phone that influences powerful psychics / බලවත්වූ මනෝ කර්මයන්ට බලපාන දුරකතනය",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/3.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1DNkWz3ZOz_k8r8WRcfMEW-Ns6UY_Tmd4",
           url: "https://drive.google.com/uc?export=download&id=1DNkWz3ZOz_k8r8WRcfMEW-Ns6UY_Tmd4",
           favorited: false
         },
         {
-          name: "Raise a beautiful doctrine through the corona / කොරෝනාව තුළින් සුන්දර ධර්මයක් මතුකරගන්න",
+          name: "4. Raise a beautiful doctrine through the corona / කොරෝනාව තුළින් සුන්දර ධර්මයක් මතුකරගන්න",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/4.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1o9sy560Qn9IfW-FD49SmcneEkNAh6zPK",
           url: "https://drive.google.com/uc?export=download&id=1o9sy560Qn9IfW-FD49SmcneEkNAh6zPK",
           favorited: false
         },
         {
-          name: "Dharma discussion at University of Paradeniya / පරදේනියා විශ්ව විද්‍යාලයේ ධර්ම සාකච්ඡාව",
+          name: "5. Dharma discussion at University of Paradeniya / පරදේනියා විශ්ව විද්‍යාලයේ ධර්ම සාකච්ඡාව",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/5.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1rLkQZf7suxAHLMA0JzUYzhm6GgZHpMIP",
           url: "https://drive.google.com/uc?export=download&id=1rLkQZf7suxAHLMA0JzUYzhm6GgZHpMIP",
           favorited: true
         },
         {
-          name: "If you hear this, you will be impatient / මෙය ඇසුවොත්, ඔබ අප්‍රමාදී වේවි",
+          name: "6. If you hear this, you will be impatient / මෙය ඇසුවොත්, ඔබ අප්‍රමාදී වේවි",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/6.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=15y5MAOxYEQgmXx4w4sc9DUuHVevUTyBg",
           url: "https://drive.google.com/uc?export=download&id=15y5MAOxYEQgmXx4w4sc9DUuHVevUTyBg",
           favorited: false
         },
         {
-          name: "Dhamma discussion held at Budugalle / බුදුගල්ලෙනදී පැවති ධර්ම සාකච්ඡාව",
+          name: "7. Dhamma discussion held at Budugalle / බුදුගල්ලෙනදී පැවති ධර්ම සාකච්ඡාව",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/7.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1FEnoatGukACh-YO6Dr06ft8Q2GSsNi60",
           url: "https://drive.google.com/uc?export=download&id=1FEnoatGukACh-YO6Dr06ft8Q2GSsNi60",
           favorited: true
         },
         {
-          name: "Identifying the right things in a world full of everything / සියල්ලෙන් පිරුණු ලෝකය තුල නිවැරදි දේ හදුනාගැනීම",
+          name: "8. Identifying the right things in a world full of everything / සියල්ලෙන් පිරුණු ලෝකය තුල නිවැරදි දේ හදුනාගැනීම",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/8.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1PsFqPyZP_u1PL0J4f8GNg8rEVwhHxt0q",
           url: "https://drive.google.com/uc?export=download&id=1PsFqPyZP_u1PL0J4f8GNg8rEVwhHxt0q",
           favorited: false
         },
         {
-          name: "සත්වයා කුමකින් වැසි තිබෙිද",
+          name: "9. සත්වයා කුමකින් වැසි තිබෙිද",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/9.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1i2UycOvT4CUI1_RWz-XsLs7HL8xTMGbk",
           url: "https://drive.google.com/uc?export=download&id=1i2UycOvT4CUI1_RWz-XsLs7HL8xTMGbk",
           favorited: false
         },
         {
-          name: "The evil mind is overbearing / අකුසල සිත් ආතිවාන්නි අයියි",
+          name: "10. The evil mind is overbearing / අකුසල සිත් ආතිවාන්නි අයියි",
           artist: "Rajagiriye Ariyagnana Thero",
-          cover: "img/10.jpg",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          url: "https://drive.google.com/uc?export=download&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          favorited: false
+        },
+        {
+          name: "11. Pansil Maduwa Episode 96 / පන්සිල් මළුව 96",
+          artist: "Rajagiriye Ariyagnana Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          url: "https://drive.google.com/uc?export=download&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          favorited: false
+        },
+        {
+          name: "12. Is this our karma? / මේ අපේ කර්මයද?",
+          artist: "Rajagiriye Ariyagnana Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          url: "https://drive.google.com/uc?export=download&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          favorited: false
+        },
+        {
+          name: "13. The prophecy of seeing the place where a young woman who committed suicide was born after death / දිවි නසා ගත් තරුණියක් මරණින් මතු ඉපදුනු ස්ථානය දිවැසින් දුටු විස්තරය",
+          artist: "Rajagiriye Ariyagnana Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          url: "https://drive.google.com/uc?export=download&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          favorited: false
+        },
+        {
+          name: "14. How Bhadrakalpa is destroyed / භද්‍රකල්ප විනාශය වන අයුරු",
+          artist: "Rajagiriye Ariyagnana Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          url: "https://drive.google.com/uc?export=download&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
+          favorited: false
+        },
+        {
+          name: "15. The reason for having a female birth? / ස්ත්‍රි උපතක් ලෑබිමට හේතුව?",
+          artist: "Rajagiriye Ariyagnana Thero",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
           url: "https://drive.google.com/uc?export=download&id=1HWaF-anfj-Iqci_okrc0tZ89y5uvN93m",
           favorited: false

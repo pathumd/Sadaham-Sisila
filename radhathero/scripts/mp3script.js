@@ -10,81 +10,121 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Blessings when worshiping the Buddha / මොහොතක් බුදුන් වැඳීමේ පින කොතරම්‍ද",
+          name: "1. Blessings when worshiping the Buddha / මොහොතක් බුදුන් වැඳීමේ පින කොතරම්‍ද",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/1.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=13g7Vs79tOkhE44LP9e_VxvlrDwKwrxsx",
           url: "https://drive.google.com/uc?export=download&id=13g7Vs79tOkhE44LP9e_VxvlrDwKwrxsx",
           favorited: false
         },
         {
-          name: "How to cultivate Maitreya meditation / මෛත්‍රී භාවනාව මුල සිට වඩනා ආකාරය",
+          name: "2. How to cultivate Maitreya meditation / මෛත්‍රී භාවනාව මුල සිට වඩනා ආකාරය",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/2.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=122NPchas6OSG223Fg1oZaA6_187YtvqO",
           url: "https://drive.google.com/uc?export=download&id=122NPchas6OSG223Fg1oZaA6_187YtvqO",
           favorited: true
         },
         {
-          name: "The 17 great anisansa pinkama / මහා කල්ප 17ක් ආනිසංස ලැබෙන පිංකම",
+          name: "3. The 17 great anisansa pinkama / මහා කල්ප 17ක් ආනිසංස ලැබෙන පිංකම",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/3.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1ihrPT1pUtPbLt80ax7Cy6gsdiyJkmb39",
           url: "https://drive.google.com/uc?export=download&id=1ihrPT1pUtPbLt80ax7Cy6gsdiyJkmb39",
           favorited: false
         },
         {
-          name: "The lord Buddha still lives today / අදත් බුදු රජාණන් වහන්සේ වැඩසිටින සේක",
+          name: "4. The lord Buddha still lives today / අදත් බුදු රජාණන් වහන්සේ වැඩසිටින සේක",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/4.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1MykGqSXYKBTbYSvjd_OR1HazP4fnHPV-",
           url: "https://drive.google.com/uc?export=download&id=1MykGqSXYKBTbYSvjd_OR1HazP4fnHPV-",
           favorited: false
         },
         {
-          name: "The great Satipattana Sutra / මහා සතිපට්‍ඨාන සුත්‍රය",
+          name: "5. The great Satipattana Sutra / මහා සතිපට්‍ඨාන සුත්‍රය",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/5.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1C5-W7HfBuTosO8efDmD2HgVW2UW37FOz",
           url: "https://drive.google.com/uc?export=download&id=1C5-W7HfBuTosO8efDmD2HgVW2UW37FOz",
           favorited: true
         },
         {
-          name: "The cause of grief / දුකට හෙතුව",
+          name: "6. The cause of grief / දුකට හෙතුව",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/6.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=18HNZDrMjn58XcZYMir1Bq1SmckOk1YM8",
           url: "https://drive.google.com/uc?export=download&id=18HNZDrMjn58XcZYMir1Bq1SmckOk1YM8",
           favorited: false
         },
         {
-          name: "To get help from God, stay in these virtues / දෙවියන්ගෙන් පිහිට ලබන්නට නම්‍ මෙි ගුණ ධර්ම වල පිහිටන්න",
+          name: "7. To get help from God, stay in these virtues / දෙවියන්ගෙන් පිහිට ලබන්නට නම්‍ මෙි ගුණ ධර්ම වල පිහිටන්න",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/7.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=18UKTzua02DAb-R7NvF_QtbO2r3_Bv7LY",
           url: "https://drive.google.com/uc?export=download&id=18UKTzua02DAb-R7NvF_QtbO2r3_Bv7LY",
           favorited: true
         },
         {
-          name: "Death Week Meditation / මරණ සති භාවනාව",
+          name: "8. Death Week Meditation / මරණ සති භාවනාව",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/8.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=11LtDGVPVIRKGzeYsOChKn0NhNE1ROFxB",
           url: "https://drive.google.com/uc?export=download&id=11LtDGVPVIRKGzeYsOChKn0NhNE1ROFxB",
           favorited: false
         },
         {
-          name: "The best way to cleanse the mind / සිත පිරිසිදු කරන මනාවු ක්‍රමය",
+          name: "9. The best way to cleanse the mind / සිත පිරිසිදු කරන මනාවු ක්‍රමය",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/9.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1Xtbu961LGkzkPE6JfLeEfSDHUhyVIw-m",
           url: "https://drive.google.com/uc?export=download&id=1Xtbu961LGkzkPE6JfLeEfSDHUhyVIw-m",
           favorited: false
         },
         {
-          name: "Muni Siripa Varana / මුනි සිරිපා වරැණ",
+          name: "10. Muni Siripa Varana / මුනි සිරිපා වරැණ",
           artist: "Ven. Balangoda Radha Thero",
-          cover: "img/10.jpg",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          url: "https://drive.google.com/uc?export=download&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          favorited: false
+        },
+        {
+          name: "11. The teacher-student relationship should look like this / ගුරැ ගෝල සම්‍බන්ධතාවය මෙසේ විය යුතුයි",
+          artist: "Ven. Balangoda Radha Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          url: "https://drive.google.com/uc?export=download&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          favorited: false
+        },
+        {
+          name: "12. In order to meditate on the seal of alms without fear of merit / පිනට භය නොවී දානයේ සීලයේ භාවනාවේ‍‍ම යෙදීම පිණිස",
+          artist: "Ven. Balangoda Radha Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          url: "https://drive.google.com/uc?export=download&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          favorited: false
+        },
+        {
+          name: "13. In order to heal this world and the hereafter / මෙලොව පරලොව සුවපත් කරගැනීම පිණිස",
+          artist: "Ven. Balangoda Radha Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          url: "https://drive.google.com/uc?export=download&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          favorited: false
+        },
+        {
+          name: "14. Uttiya Thera Gatha / උත්තිය ථේර ගථා",
+          artist: "Ven. Balangoda Radha Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          url: "https://drive.google.com/uc?export=download&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
+          favorited: false
+        },
+        {
+          name: "15. See the eternal truth that no one knows / කවුරැත් නොදන්න සනාතන සත්‍යය දැකගන්න",
+          artist: "Ven. Balangoda Radha Thero",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
           url: "https://drive.google.com/uc?export=download&id=16CQchcNn4GMqdeulDv8h2ZvjHiRuBos1",
           favorited: false

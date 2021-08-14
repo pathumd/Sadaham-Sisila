@@ -10,81 +10,121 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Abandonment / අත්හැරීම",
+          name: "1. Abandonment / අත්හැරීම",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/1.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1JuXWSmZMxd4WDZ49g525LnjzGVCr5Bcx",
           url: "https://drive.google.com/uc?export=download&id=1JuXWSmZMxd4WDZ49g525LnjzGVCr5Bcx",
           favorited: false
         },
         {
-          name: "Don't worry / කම්පා නොවන්න",
+          name: "2. Don't worry / කම්පා නොවන්න",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/2.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1mgy3N23-OG8wtJPMGKy6IT4KpoIJOAxh",
           url: "https://drive.google.com/uc?export=download&id=1mgy3N23-OG8wtJPMGKy6IT4KpoIJOAxh",
           favorited: true
         },
         {
-          name: "How sasara chases enemies / සසර හතුරන් පසුපස එන හැටි",
+          name: "3. How sasara chases enemies / සසර හතුරන් පසුපස එන හැටි",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/3.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1k1vjPYAqoOHQJWLiizze_DcmdDvo5_W_",
           url: "https://drive.google.com/uc?export=download&id=1k1vjPYAqoOHQJWLiizze_DcmdDvo5_W_",
           favorited: false
         },
         {
-          name: "A great sermon for parents / දෙමාපියන් සඳහා ලස්සන දේශනයක්",
+          name: "4. A great sermon for parents / දෙමාපියන් සඳහා ලස්සන දේශනයක්",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/4.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1J4dYwhoyA0ZNmYeksACw96rGaE0ViuQD",
           url: "https://drive.google.com/uc?export=download&id=1J4dYwhoyA0ZNmYeksACw96rGaE0ViuQD",
           favorited: false
         },
         {
-          name: "No shock / කම්පා නොවීම",
+          name: "5. No shock / කම්පා නොවීම",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/5.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1gxWWrvL3orGnIVIfQpyOk18Me0CTKUV-",
           url: "https://drive.google.com/uc?export=download&id=1gxWWrvL3orGnIVIfQpyOk18Me0CTKUV-",
           favorited: true
         },
         {
-          name: "Obedience / කීකරු කම",
+          name: "6. Obedience / කීකරු කම",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/6.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1aIrusY7yVuYM-GWAUDcu9xnUELrpcvPj",
           url: "https://drive.google.com/uc?export=download&id=1aIrusY7yVuYM-GWAUDcu9xnUELrpcvPj",
           favorited: false
         },
         {
-          name: "Disasters / විපත්ති",
+          name: "7. Disasters / විපත්ති",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/7.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1-vq86p7pqb26E6pMTQdFEDBcBcGXe5ng",
           url: "https://drive.google.com/uc?export=download&id=1-vq86p7pqb26E6pMTQdFEDBcBcGXe5ng",
           favorited: true
         },
         {
-          name: "Matugama sutta / මාතුගාම සූත්‍රය",
+          name: "8. Matugama sutta / මාතුගාම සූත්‍රය",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/8.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1pG-k0bTF9rRgrIs_7p567sNXz61hLpOS",
           url: "https://drive.google.com/uc?export=download&id=1pG-k0bTF9rRgrIs_7p567sNXz61hLpOS",
           favorited: false
         },
         {
-          name: "Should I repent? / පසුතැවිලි විය යුතුද?",
+          name: "9. Should I repent? / පසුතැවිලි විය යුතුද?",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/9.jpg",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1Ir9iqfdvinOER0kw-M8sBbyvVQfB9AyQ",
           url: "https://drive.google.com/uc?export=download&id=1Ir9iqfdvinOER0kw-M8sBbyvVQfB9AyQ",
           favorited: false
         },
         {
-          name: "To be happy, to be grateful / සතුටින් යුත්තවීම, කළගුණ සැළකීම",
+          name: "10. To be happy, to be grateful / සතුටින් යුත්තවීම, කළගුණ සැළකීම",
           artist: "Mawarale Bhaddiya Thero",
-          cover: "img/10.jpg",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          url: "https://drive.google.com/uc?export=download&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          favorited: false
+        },
+        {
+          name: "11. Hate is anger / වෛරය ක්‍රෝධය",
+          artist: "Mawarale Bhaddiya Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          url: "https://drive.google.com/uc?export=download&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          favorited: false
+        },
+        {
+          name: "12. Parental qualities / දෙමව්පියන්ගේ ගුණ",
+          artist: "Mawarale Bhaddiya Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          url: "https://drive.google.com/uc?export=download&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          favorited: false
+        },
+        {
+          name: "13. To be happy, to be grateful / සතුටින් යුත්තවීම, කළගුණ සැළකීම",
+          artist: "Mawarale Bhaddiya Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          url: "https://drive.google.com/uc?export=download&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          favorited: false
+        },
+        {
+          name: "14. Useless people / වැඩකට නැති පුද්ගලයෝ",
+          artist: "Mawarale Bhaddiya Thero",
+          cover: "img/cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          url: "https://drive.google.com/uc?export=download&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
+          favorited: false
+        },
+        {
+          name: "Greed / තණ්හාව",
+          artist: "Mawarale Bhaddiya Thero",
+          cover: "img/cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
           url: "https://drive.google.com/uc?export=download&id=1w5VMSsKBvRbUoy9tivK0p23DVYT8g-NG",
           favorited: false
