@@ -631,10 +631,9 @@ textarea {
 
   }
 
-
 /*Mobile/Tablet*/
 
-@media only screen and (min-width: 360px) and (max-width: 765px) {
+@media only screen and (min-width: 360px) and (max-width: 534px) { 
 
     .form-control {
         width: 340px;
@@ -660,7 +659,114 @@ textarea {
     }
 
     .header {
-        padding-top: 400px;
+        padding-top: 480px;
+    }
+
+    .lord_buddha {
+        z-index: -2;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        top: 0;
+        padding-top: 100px;
+        padding-left: 10%;
+        padding-right: 40px;
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    
+    }
+
+    .features {
+        margin-top: 160px;
+    }
+
+}
+/*Mobile/Tablet*/
+@media only screen and (min-width: 535px) and (max-width: 649px) { 
+
+    .form-control {
+        width: 340px;
+    }
+
+    .form-control-submit {
+        width: 340px;
+        padding-left: 15px;
+    }
+
+    .contact_title {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    .contact_header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header h1 {
+        font-size: 50px;
+    }
+
+    .header {
+        padding-top: 600px;
+        position: relative;
+        
+    }
+
+    .lord_buddha {
+        z-index: -2;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        top: 0;
+        padding-top: 100px;
+        padding-left: 10%;
+        padding-right: 40px;
+        animation-name: floating;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    
+    }
+
+    .features {
+        margin-top: 160px;
+    }
+
+}
+/*Mobile/Tablet*/
+
+@media only screen and (min-width: 650px) and (max-width: 767px) {
+
+    .form-control {
+        width: 340px;
+    }
+
+    .form-control-submit {
+        width: 340px;
+        padding-left: 15px;
+    }
+
+    .contact_title {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    .contact_header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header h1 {
+        font-size: 60px;
+    }
+
+    .header {
+        padding-top: 750px;
+        position: relative;
+        
     }
 
     .lord_buddha {
@@ -688,7 +794,7 @@ textarea {
 
 /*Tablet*/
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1277px) {
 
     .header h1 {
         font-size: 45px;
@@ -699,7 +805,7 @@ textarea {
   
 /*Laptop*/
 
-@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+@media only screen and (min-width: 1277px) and (max-width: 1366px) {
 
     .features {
         margin-top: 320px;
