@@ -10,123 +10,163 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "1. How Tissa went down to the river barefoot and went to heaven / හෙළුවෙන් ගඟට බැස්ස තිස්ස දිව්‍යලෝකයට ගිය හැටි",
+          name: "1 - How Tissa went down to the river barefoot and went to heaven / හෙළුවෙන් ගඟට බැස්ස තිස්ස දිව්‍යලෝකයට ගිය හැටි",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1n-_PX7I3gdHZm9lse9lK3JXaanQ54-y9",
           url: "https://drive.google.com/uc?export=download&id=1n-_PX7I3gdHZm9lse9lK3JXaanQ54-y9",
           favorited: false
         },
         {
-          name: "2. Do not give more than one / එකෙකුටවත් වැඩියෙන් දෙන්න එපා",
+          name: "2 - Do not give more than one / එකෙකුටවත් වැඩියෙන් දෙන්න එපා",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=14iCVLnUEohZlQ_i2oVcyiWfWtYQmP1Zx",
           url: "https://drive.google.com/uc?export=download&id=14iCVLnUEohZlQ_i2oVcyiWfWtYQmP1Zx",
           favorited: true
         },
         {
-          name: "3. What kind of pottery is there for the corpse? / මළකඳට මොන පාංසකූල ද?",
+          name: "3 - What kind of pottery is there for the corpse? / මළකඳට මොන පාංසකූල ද?",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1X3wONCGWdrDS7T5Qgxpy8m40JDqeYZ8Y",
           url: "https://drive.google.com/uc?export=download&id=1X3wONCGWdrDS7T5Qgxpy8m40JDqeYZ8Y",
           favorited: false
         },
         {
-          name: "4. People will deceive you, but if you give in, you will get it / මිනිස්සු ඔබව රැවටුවත් , ඔබ පිණට දුන්නොත් ඔබට ලැබෙනවාමයි",
+          name: "4 - People will deceive you, but if you give in, you will get it / මිනිස්සු ඔබව රැවටුවත් , ඔබ පිණට දුන්නොත් ඔබට ලැබෙනවාමයි",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1MPP2fva24bMCTD2dBkpQMALCZPPOm-Ch",
           url: "https://drive.google.com/uc?export=download&id=1MPP2fva24bMCTD2dBkpQMALCZPPOm-Ch",
           favorited: false
         },
         {
-          name: "5. Things to do to live comfortably / සැහැල්ලුවෙන් ජීවත් වන්න කල යුතු දේ",
+          name: "5 - Things to do to live comfortably / සැහැල්ලුවෙන් ජීවත් වන්න කල යුතු දේ",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1bAHQDuRGP5xAFgaMxlyoul_V4zCfamSC",
           url: "https://drive.google.com/uc?export=download&id=1bAHQDuRGP5xAFgaMxlyoul_V4zCfamSC",
           favorited: true
         },
         {
-          name: "6. Corona heals in an hour Grass coffee! / කොරෝනා පැයකින් සනීපයි තණකොළ කාපියව්!",
+          name: "6 - Corona heals in an hour Grass coffee! / කොරෝනා පැයකින් සනීපයි තණකොළ කාපියව්!",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1-s5gIsADqPuei_5BI_XXdCYfD9RbI4Mq",
           url: "https://drive.google.com/uc?export=download&id=1-s5gIsADqPuei_5BI_XXdCYfD9RbI4Mq",
           favorited: false
         },
         {
-          name: "7. Haven't you donated these things yet as you get older? / වයසට ගියත් ඔබ තවම මේ දේවල් දන් දුන්නේ නැතිද?",
+          name: "7 - Haven't you donated these things yet as you get older? / වයසට ගියත් ඔබ තවම මේ දේවල් දන් දුන්නේ නැතිද?",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1a1F-OpcH32fcvdPhaV1eF1IPV5UKnxLl",
           url: "https://drive.google.com/uc?export=download&id=1a1F-OpcH32fcvdPhaV1eF1IPV5UKnxLl",
           favorited: true
         },
         {
-          name: "8. Why do we dream? / අපිට සිහින පෙනෙන්නේ ඇයි?",
+          name: "8 - Why do we dream? / අපිට සිහින පෙනෙන්නේ ඇයි?",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=14rJqmIrELSSjDXgqSkXpBezz4Wb2xgI4",
           url: "https://drive.google.com/uc?export=download&id=14rJqmIrELSSjDXgqSkXpBezz4Wb2xgI4",
           favorited: false
         },
         {
-          name: "9. How to live a sucessful life with women / ගැහැණුන් සමග කටයුතු කල යුතු ආකාරය",
+          name: "9 - How to live a sucessful life with women / ගැහැණුන් සමග කටයුතු කල යුතු ආකාරය",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=14Y6HmY3I6vjGnZFUl8QcCccQsYLkzptk",
           url: "https://drive.google.com/uc?export=download&id=14Y6HmY3I6vjGnZFUl8QcCccQsYLkzptk",
           favorited: false
         },
         {
-          name: "10. Do not be fooled by jokes / විහිළුවට වත් අනුන්ගේ සිත් බිඳින්න එපා",
+          name: "10 - Do not be fooled by jokes / විහිළුවට වත් අනුන්ගේ සිත් බිඳින්න එපා",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
+          cover: "img/bk_cover.jpg",
           source: "http://docs.google.com/uc?export=open&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
           url: "https://drive.google.com/uc?export=download&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
           favorited: false
         },
         {
-          name: "11. BuddhistTV - 2021-07-08",
+          name: "11 - Relax TV 2021/11/18",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
-          source: "http://docs.google.com/uc?export=open&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
-          url: "https://drive.google.com/uc?export=download&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=16xrNtOfn2-uu7RH29p06FfMKrP1_Q4Qe",
+          url: "https://drive.google.com/uc?export=download&id=16xrNtOfn2-uu7RH29p06FfMKrP1_Q4Qe",
           favorited: false
         },
         {
-          name: "12. BuddhistTV - 2021-06-26",
+          name: "12 - Do you want to enjoy the benefit of others? / ඔබත් අනුන් කල පිනෙන් සැප විඳින්න හිතනවාද?",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
-          source: "http://docs.google.com/uc?export=open&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
-          url: "https://drive.google.com/uc?export=download&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1UwDuPCpSlGuZkF8_hP9OCZBqNc5aQsbf",
+          url: "https://drive.google.com/uc?export=download&id=1UwDuPCpSlGuZkF8_hP9OCZBqNc5aQsbf",
           favorited: false
         },
         {
-          name: "13. BuddhistTV - 2021-05-12",
+          name: "13 - Did the Lord Buddha say not to enjoy? / බුදු රජාණවහන්සේ සැප විඳින්න එපා කිව්වද?",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
-          source: "http://docs.google.com/uc?export=open&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
-          url: "https://drive.google.com/uc?export=download&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1_SpQCrcrL6eupYv1zBOXIom9DBsnSmZI",
+          url: "https://drive.google.com/uc?export=download&id=1_SpQCrcrL6eupYv1zBOXIom9DBsnSmZI",
           favorited: false
         },
         {
-          name: "14. BuddhistTV - 2021-05-03",
+          name: "14 - Life is about suffering / ජීවිතය තියෙන්නේ විඳින්න මිස විඳවන්න නොවෙයි",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
-          source: "http://docs.google.com/uc?export=open&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
-          url: "https://drive.google.com/uc?export=download&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1FlWwloyN13faC5okwiFI6PEEDOM_XS6p",
+          url: "https://drive.google.com/uc?export=download&id=1FlWwloyN13faC5okwiFI6PEEDOM_XS6p",
           favorited: false
         },
         {
-          name: "15. BuddhistTV - 2021-04-02",
+          name: "15 - Something that is more difficult than swallowing a sword / කඩුවක් ගිලිනවාටත් වඩා අමාරු දෙයක්",
           artist: "Boralle Kovida Thero",
-          cover: "img/cover.jpg",
-          source: "http://docs.google.com/uc?export=open&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
-          url: "https://drive.google.com/uc?export=download&id=1iP5vw_ttPe4mzKWpm9pAU5gdgzTrptY7",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1ksfigR2AKbAWWz1R0-_67KLlq5LEwMzB",
+          url: "https://drive.google.com/uc?export=download&id=1ksfigR2AKbAWWz1R0-_67KLlq5LEwMzB",
+          favorited: false
+        },
+        {
+          name: "16 - Dharmavahini 2021/10/20",
+          artist: "Boralle Kovida Thero",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1R_Z219QDYVqgZdg_priU5-0iW1WQaPEF",
+          url: "https://drive.google.com/uc?export=download&id=1R_Z219QDYVqgZdg_priU5-0iW1WQaPEF",
+          favorited: false
+        },
+        {
+          name: "17 - Pragna TV 2021/12/18",
+          artist: "Boralle Kovida Thero",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1HI_QjFzxMOANLP7uUKwHxvQ3rsBAPKpK",
+          url: "https://drive.google.com/uc?export=download&id=1HI_QjFzxMOANLP7uUKwHxvQ3rsBAPKpK",
+          favorited: false
+        },
+        {
+          name: "18 - Do we really have to be patient? / අපි ඇත්තටම ඉවසන්න ඕනිද",
+          artist: "Boralle Kovida Thero",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1NEujV3HHeAGnl52d9UyNYYZe_h9XoeqY",
+          url: "https://drive.google.com/uc?export=download&id=1NEujV3HHeAGnl52d9UyNYYZe_h9XoeqY",
+          favorited: false
+        },
+        {
+          name: "19 - Pahan Sitha 12/03/2021",
+          artist: "Boralle Kovida Thero",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1FM_CxwezXRyfYsRfmLzgKELgHyYkBf4b",
+          url: "https://drive.google.com/uc?export=download&id=1FM_CxwezXRyfYsRfmLzgKELgHyYkBf4b",
+          favorited: false
+        },
+        {
+          name: "20 - Relax TV 2021/10/15",
+          artist: "Boralle Kovida Thero",
+          cover: "img/bk_cover.jpg",
+          source: "http://docs.google.com/uc?export=open&id=1BEuMGeuieKppbA3FqzYfYYE1yOqu9Rpp",
+          url: "https://drive.google.com/uc?export=download&id=1BEuMGeuieKppbA3FqzYfYYE1yOqu9Rpp",
           favorited: false
         }
       ],
