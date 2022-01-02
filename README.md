@@ -1,5 +1,5 @@
 # Sadaham Sisila (සදහම් සිසිල)(Buddhist Peace)
-Project Version 1.1 07/09/2021
+Project Version 1.2 12/31/2021
 
 ![alt text](https://github.com/pathumd/Sadaham-Sisila/blob/main/mainmockup.jpg?raw=true)
 Description:
