@@ -4,10 +4,9 @@ Project Version 1.2 12/31/2021
 ![alt text](https://github.com/pathumd/Sadaham-Sisila/blob/main/mainmockup.jpg?raw=true)
 Description:
 --------------
-- Sadaham Sisila is a website where people who are interested in listening to Sinhalese dharma sermons/discussions from Sri Lanka's most popular Buddhist monks, can do so in one convenient place.
-- The website features a MP3 player that users can use to listen to the dharma sermon with ease, as well as use play, pause, skip, fast forward or rewind functionalities.
-- Since a majority of people in Sri Lanka do not have access to good internet or are using the internet off of data cards, I added a functionality into the MP3 player where the user can download the dharma sermon they are listening to, so that they can listen to it offline without worrying about running out of data.
-Sadaham Sisila already has a vast library of dharma sermons from many popular Buddhist monks, however this library will be frequently be updated with new dharma sermons from even more Buddhist monks, to eventually create a large library of these sermons.
+- Designed and developed a website called Sadaham Sisila (Buddhist Peace) using front-end development tools such as HTML, CSS, and JavaScript to provide users with a curated library of Sinhalese Buddhist sermons from Sri Lanka’s most famed monks.
+- Buddhism is very dear to my heart because it fosters simplicity and utility, concepts that are valuable to my work and front-end designs in particular.
+- To enhance user experience, I enabled offline listening for by implementing a feature-rich audio player using JavaScript. Finally, I also used Adobe XD to create an overall aesthetic that constitutes a tranquil space for listening.
 - Live demo: https://sadahamsisila.com
 
 License:
